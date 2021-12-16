@@ -1,0 +1,22 @@
+{
+  "name": "CommonSettingSwift",
+  "version": "0.1.0",
+  "summary": "A short description of CommonSettingSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/insect/CommonSettingSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "insect": "704861917@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/insect/CommonSettingSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CommonSettingSwift/Classes/**/*"
+}

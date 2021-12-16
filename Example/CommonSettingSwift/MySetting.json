@@ -1,0 +1,23 @@
+
+{
+    "appId": "1597580305",
+    "privacyPolicy": "https://baidu.com",
+    "userAgreement": "https://baidu.com",
+    "feedbackEmail": "slave@example.com",
+    "shareIcon": "",
+    "aboutIcon": "",
+    "copyright": "com.slave",
+    "introduce": [
+        {
+            "title" : "标题",
+            "subTitle" : "副标题",
+            "imageName": "1"
+        
+        },
+        {
+            "title" : "标题",
+            "subTitle" : "副标题",
+            "imageName": "图片名称"
+        }
+    ]
+}
