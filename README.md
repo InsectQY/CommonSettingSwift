@@ -5,13 +5,21 @@
 [![License](https://img.shields.io/cocoapods/l/CommonSettingSwift.svg?style=flat)](https://cocoapods.org/pods/CommonSettingSwift)
 [![Platform](https://img.shields.io/cocoapods/p/CommonSettingSwift.svg?style=flat)](https://cocoapods.org/pods/CommonSettingSwift)
 
-通用的设置页面封装，支持配置文件和代码两种方式初始化
+一行代码集成通用设置页面，支持配置文件和代码两种方式初始化
 
 ## Use
 
+最少你只需要一行代码就能集成 `CommonSetting`，以下两种方式选择其中一种即可。
+
 ### 使用配置文件初始化（推荐）
 
-1. 在主工程中创建一个 `MySetting.json` 文件，配置需要自定义的参数
+1. 导入头文件
+
+```swift
+import CommonSettingSwift
+```
+
+2. 在主工程中创建一个 `MySetting.json` 文件，配置需要自定义的参数
 
 ```json
 {
@@ -38,23 +46,33 @@
 }
 ```
 
-2. 初始化控制器（需要将其加入导航控制器中）
+3. 初始化控制器
 
 ```swift
 let vc = CommonSettingViewController()
+```
+
+4. 将其加入导航控制器中
+
+```swift
 navigationController?.pushViewController(vc, animated: true)
 ```
 
 或者
 
 ```swift
-let vc = CommonSettingViewController()
 UINavigationController(rootViewController: vc)
 ```
 
 ### 使用代码初始化
 
-1. 初始化 `Settings` 对象
+1. 导入头文件
+
+```swift
+import CommonSettingSwift
+```
+
+2. 初始化 `Settings` 对象
 
 ```swift
 public init(appId: String,
@@ -77,25 +95,30 @@ public init(appId: String,
 }
 ```
 
-2. 初始化控制器（需要将其加入导航控制器中）
+3. 初始化控制器
 
 ```swift
 let settings = Settings()
 let vc = CommonSettingViewController(settings: settings)
+```
+
+4. 将其加入导航控制器中
+
+```swift
 navigationController?.pushViewController(vc, animated: true)
 ```
 
 或者
 
 ```swift
-let settings = Settings()
-let vc = CommonSettingViewController()
 UINavigationController(rootViewController: vc)
 ```
 
 ## Requirements
 
 iOS 9.0 +
+
+Siwft 5.0 +
 
 ## Installation
 

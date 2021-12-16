@@ -22,7 +22,6 @@ public class AboutViewController: BaseSettingViewController {
         
         super.makeUI()
         navigationItem.title = "关于"
-        view.backgroundColor = .white
         nameLabel.text = UIApplication.displayName
         versionLabel.text = "v" + (UIApplication.version ?? "")
         iconImage.image = Utils.getIcon(settings.aboutIcon)
