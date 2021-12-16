@@ -7,6 +7,8 @@
 
 一行代码集成通用设置页面，支持配置文件和代码两种方式初始化
 
+[Objective-C 版本](https://github.com/InsectQY/CommonSetting)
+
 ## Use
 
 最少你只需要一行代码就能集成 `CommonSetting`，以下两种方式选择其中一种即可。
