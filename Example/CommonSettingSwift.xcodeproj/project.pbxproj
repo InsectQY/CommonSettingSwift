@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		420D03FE73771FD6DEA9C332 /* Pods_CommonSettingSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5F7D505C9D8264A66BE959 /* Pods_CommonSettingSwift_Example.framework */; };
+		185C04A63E561A5350CE477E /* libPods-CommonSettingSwift_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE0BB3A98FE6432208F080B /* libPods-CommonSettingSwift_Example.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		BA55411422E619CBA4B2692C /* Pods_CommonSettingSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED831D4A324700D24C3EFE08 /* Pods_CommonSettingSwift_Tests.framework */; };
+		B136EC4A434021044DD2A8C2 /* libPods-CommonSettingSwift_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E58BA4310D4A20526CAD174 /* libPods-CommonSettingSwift_Tests.a */; };
 		E539A2182769CE1A0078A079 /* MySetting.json in Resources */ = {isa = PBXBuildFile; fileRef = E539A2172769CE1A0078A079 /* MySetting.json */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,7 @@
 		2BCE7123384CB3DF7E483479 /* Pods-CommonSettingSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSettingSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-CommonSettingSwift_Example/Pods-CommonSettingSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3B2EE43D87C236E20199DED2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3CCEDB46798DD0C002E9B6D4 /* Pods-CommonSettingSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSettingSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CommonSettingSwift_Tests/Pods-CommonSettingSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E58BA4310D4A20526CAD174 /* libPods-CommonSettingSwift_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonSettingSwift_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* CommonSettingSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonSettingSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,12 +40,11 @@
 		607FACE51AFB9204008FA782 /* CommonSettingSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonSettingSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6D5F7D505C9D8264A66BE959 /* Pods_CommonSettingSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonSettingSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3CFB48A32C6A45D152C281 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		895CAF92D426E32F9DCB67BD /* Pods-CommonSettingSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSettingSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-CommonSettingSwift_Example/Pods-CommonSettingSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9AE0BB3A98FE6432208F080B /* libPods-CommonSettingSwift_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonSettingSwift_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6192D0E3797BD22D459480 /* Pods-CommonSettingSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSettingSwift_Tests.release.xcconfig"; path = "Target Support Files/Pods-CommonSettingSwift_Tests/Pods-CommonSettingSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E539A2172769CE1A0078A079 /* MySetting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MySetting.json; sourceTree = "<group>"; };
-		ED831D4A324700D24C3EFE08 /* Pods_CommonSettingSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonSettingSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				420D03FE73771FD6DEA9C332 /* Pods_CommonSettingSwift_Example.framework in Frameworks */,
+				185C04A63E561A5350CE477E /* libPods-CommonSettingSwift_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA55411422E619CBA4B2692C /* Pods_CommonSettingSwift_Tests.framework in Frameworks */,
+				B136EC4A434021044DD2A8C2 /* libPods-CommonSettingSwift_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +139,8 @@
 		69B6E61CECE203850B4B3673 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6D5F7D505C9D8264A66BE959 /* Pods_CommonSettingSwift_Example.framework */,
-				ED831D4A324700D24C3EFE08 /* Pods_CommonSettingSwift_Tests.framework */,
+				9AE0BB3A98FE6432208F080B /* libPods-CommonSettingSwift_Example.a */,
+				4E58BA4310D4A20526CAD174 /* libPods-CommonSettingSwift_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				9D317B4BB94D1425D6EFA6DA /* [CP] Embed Pods Frameworks */,
+				872B1D99239DAB8C51418096 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -304,22 +304,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9D317B4BB94D1425D6EFA6DA /* [CP] Embed Pods Frameworks */ = {
+		872B1D99239DAB8C51418096 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CommonSettingSwift_Example/Pods-CommonSettingSwift_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CommonSettingSwift/CommonSettingSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-CommonSettingSwift_Example/Pods-CommonSettingSwift_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/CommonSettingSwift/CommonSettingSwiftResources.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CommonSettingSwift.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CommonSettingSwiftResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonSettingSwift_Example/Pods-CommonSettingSwift_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonSettingSwift_Example/Pods-CommonSettingSwift_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

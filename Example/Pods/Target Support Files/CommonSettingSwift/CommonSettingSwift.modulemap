@@ -1,4 +1,4 @@
-framework module CommonSettingSwift {
+module CommonSettingSwift {
   umbrella header "CommonSettingSwift-umbrella.h"
 
   export *

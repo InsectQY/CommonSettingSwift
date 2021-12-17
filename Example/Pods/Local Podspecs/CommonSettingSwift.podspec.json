@@ -1,6 +1,6 @@
 {
   "name": "CommonSettingSwift",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "通用的设置页面封装",
   "description": "支持配置文件和代码两种方式配置，拥有多种常见设置功能",
   "homepage": "https://github.com/InsectQY/CommonSettingSwift",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/InsectQY/CommonSettingSwift",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "9.0"
