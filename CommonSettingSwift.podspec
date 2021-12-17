@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CommonSettingSwift'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = '通用的设置页面封装'
 
   s.description      = <<-DESC
@@ -22,24 +22,33 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
-
-  s.source_files = 'CommonSettingSwift/Classes/**/*'
-  s.resources = 'CommonSettingSwift/Classes/**/.{xib,png}'
   
   s.subspec 'Core' do |ss|
-      ss.source_files = 'CommonSettingSwift/Classes/Core/*'
+      ss.source_files = 'CommonSettingSwift/Classes/Core/*.swift'
+    end
+  
+  s.subspec 'Resources' do |ss|
+      ss.resource_bundles = {'CommonSettingSwiftResources' => ['CommonSettingSwift/Resources/*.*']}
     end
   
   s.subspec 'About' do |ss|
-      ss.source_files = 'CommonSettingSwift/Classes/About/*'
-      ss.resources = 'CommonSettingSwift/Classes/About/.{xib,png}'
+      ss.source_files = 'CommonSettingSwift/Classes/About/*.swift'
+      ss.dependency 'CommonSettingSwift/Resources'
       ss.dependency 'CommonSettingSwift/Core'
     end
   
   s.subspec 'Introduce' do |ss|
-      ss.source_files = 'CommonSettingSwift/Classes/Introduce/*'
-      ss.resources = 'CommonSettingSwift/Classes/Introduce/.{xib,png}'
+      ss.source_files = 'CommonSettingSwift/Classes/Introduce/*.swift'
+      ss.dependency 'CommonSettingSwift/Resources'
       ss.dependency 'CommonSettingSwift/Core'
+    end
+  
+  s.subspec 'Main' do |ss|
+      ss.source_files = 'CommonSettingSwift/Classes/Main/*.swift'
+      ss.dependency 'CommonSettingSwift/Resources'
+      ss.dependency 'CommonSettingSwift/Core'
+      ss.dependency 'CommonSettingSwift/About'
+      ss.dependency 'CommonSettingSwift/Introduce'
     end
   
 end

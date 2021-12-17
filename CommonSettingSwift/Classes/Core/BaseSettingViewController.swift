@@ -13,12 +13,12 @@ public class BaseSettingViewController: UIViewController {
     
     public init(settings: Settings) {
         self.settings = settings
-        super.init(nibName: nil, bundle: Bundle(for: Self.self))
+        super.init(nibName: nil, bundle: Utils.getBundle())
     }
     
     public init() {
         self.settings = Utils.decodeSettings()
-        super.init(nibName: nil, bundle: Bundle(for: Self.self))
+        super.init(nibName: nil, bundle: Utils.getBundle())
     }
     
     required public init?(coder: NSCoder) {

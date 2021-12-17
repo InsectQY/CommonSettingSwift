@@ -16,6 +16,7 @@ public class IntroduceViewController: BaseSettingViewController {
     @IBOutlet private weak var flowLayout: UICollectionViewFlowLayout!
     @IBOutlet private weak var collectionView: UICollectionView!
     
+    // MARK: - LifeCycle
     public override func viewWillAppear(_ animated: Bool) {
         navigationController?.setNavigationBarHidden(true, animated: true)
     }
@@ -32,9 +33,11 @@ public class IntroduceViewController: BaseSettingViewController {
         }
         collectionView.dataSource = self
         collectionView.delegate = self
-        collectionView.register(UINib(nibName: "IntroduceCell",
-                                      bundle: Bundle(for: Self.self)),
-                                forCellWithReuseIdentifier: reuseIdentifier)
+        if let bundle = Utils.getBundle() {
+            collectionView.register(UINib(nibName: "IntroduceCell",
+                                          bundle: bundle),
+                                    forCellWithReuseIdentifier: reuseIdentifier)
+        }
         flowLayout.minimumLineSpacing = 0
         flowLayout.minimumInteritemSpacing = 0
         pageControl.numberOfPages = settings.introduce.count

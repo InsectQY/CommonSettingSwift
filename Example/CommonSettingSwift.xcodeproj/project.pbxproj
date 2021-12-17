@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		423B45B990DCDE986B67228F /* Pods_CommonSettingSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC6197058161D1A78C75189 /* Pods_CommonSettingSwift_Tests.framework */; };
-		5ED4C00DD5CB553F540E6787 /* Pods_CommonSettingSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263043ED0A0E316342DC99EB /* Pods_CommonSettingSwift_Example.framework */; };
+		420D03FE73771FD6DEA9C332 /* Pods_CommonSettingSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D5F7D505C9D8264A66BE959 /* Pods_CommonSettingSwift_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		BA55411422E619CBA4B2692C /* Pods_CommonSettingSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED831D4A324700D24C3EFE08 /* Pods_CommonSettingSwift_Tests.framework */; };
 		E539A2182769CE1A0078A079 /* MySetting.json in Resources */ = {isa = PBXBuildFile; fileRef = E539A2172769CE1A0078A079 /* MySetting.json */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +28,6 @@
 
 /* Begin PBXFileReference section */
 		0684132D211E3FFEF50F5790 /* CommonSettingSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CommonSettingSwift.podspec; path = ../CommonSettingSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1FC6197058161D1A78C75189 /* Pods_CommonSettingSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonSettingSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		263043ED0A0E316342DC99EB /* Pods_CommonSettingSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonSettingSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCE7123384CB3DF7E483479 /* Pods-CommonSettingSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSettingSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-CommonSettingSwift_Example/Pods-CommonSettingSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3B2EE43D87C236E20199DED2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3CCEDB46798DD0C002E9B6D4 /* Pods-CommonSettingSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSettingSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CommonSettingSwift_Tests/Pods-CommonSettingSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -41,10 +39,12 @@
 		607FACE51AFB9204008FA782 /* CommonSettingSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonSettingSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6D5F7D505C9D8264A66BE959 /* Pods_CommonSettingSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonSettingSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3CFB48A32C6A45D152C281 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		895CAF92D426E32F9DCB67BD /* Pods-CommonSettingSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSettingSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-CommonSettingSwift_Example/Pods-CommonSettingSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DE6192D0E3797BD22D459480 /* Pods-CommonSettingSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonSettingSwift_Tests.release.xcconfig"; path = "Target Support Files/Pods-CommonSettingSwift_Tests/Pods-CommonSettingSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E539A2172769CE1A0078A079 /* MySetting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MySetting.json; sourceTree = "<group>"; };
+		ED831D4A324700D24C3EFE08 /* Pods_CommonSettingSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonSettingSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ED4C00DD5CB553F540E6787 /* Pods_CommonSettingSwift_Example.framework in Frameworks */,
+				420D03FE73771FD6DEA9C332 /* Pods_CommonSettingSwift_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				423B45B990DCDE986B67228F /* Pods_CommonSettingSwift_Tests.framework in Frameworks */,
+				BA55411422E619CBA4B2692C /* Pods_CommonSettingSwift_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +139,8 @@
 		69B6E61CECE203850B4B3673 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				263043ED0A0E316342DC99EB /* Pods_CommonSettingSwift_Example.framework */,
-				1FC6197058161D1A78C75189 /* Pods_CommonSettingSwift_Tests.framework */,
+				6D5F7D505C9D8264A66BE959 /* Pods_CommonSettingSwift_Example.framework */,
+				ED831D4A324700D24C3EFE08 /* Pods_CommonSettingSwift_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				98AB1E4A4047299C60D0D886 /* [CP] Embed Pods Frameworks */,
+				9D317B4BB94D1425D6EFA6DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,7 +304,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		98AB1E4A4047299C60D0D886 /* [CP] Embed Pods Frameworks */ = {
+		9D317B4BB94D1425D6EFA6DA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -469,6 +469,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SLZQQC8NFR;
 				INFOPLIST_FILE = CommonSettingSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -485,6 +486,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SLZQQC8NFR;
 				INFOPLIST_FILE = CommonSettingSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

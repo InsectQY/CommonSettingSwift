@@ -34,4 +34,16 @@ class Utils {
                        in: Bundle.main,
                        compatibleWith: nil)
     }
+    
+    static func getBundle() -> Bundle? {
+        
+        let bundle = Bundle(for: Self.self)
+        guard
+            let url = bundle.url(forResource: "CommonSettingSwiftResources",
+                                 withExtension: "bundle")
+        else {
+            return nil
+        }
+        return Bundle(url: url)
+    }
 }

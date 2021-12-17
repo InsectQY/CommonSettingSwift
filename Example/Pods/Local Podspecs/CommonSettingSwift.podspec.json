@@ -19,18 +19,26 @@
     "ios": "9.0"
   },
   "swift_versions": "5.0",
-  "source_files": "CommonSettingSwift/Classes/**/*",
-  "resources": "CommonSettingSwift/Classes/**/.{xib,png}",
   "subspecs": [
     {
       "name": "Core",
-      "source_files": "CommonSettingSwift/Classes/Core/*"
+      "source_files": "CommonSettingSwift/Classes/Core/*.swift"
+    },
+    {
+      "name": "Resources",
+      "resource_bundles": {
+        "CommonSettingSwiftResources": [
+          "CommonSettingSwift/Resources/*.*"
+        ]
+      }
     },
     {
       "name": "About",
-      "source_files": "CommonSettingSwift/Classes/About/*",
-      "resources": "CommonSettingSwift/Classes/About/.{xib,png}",
+      "source_files": "CommonSettingSwift/Classes/About/*.swift",
       "dependencies": {
+        "CommonSettingSwift/Resources": [
+
+        ],
         "CommonSettingSwift/Core": [
 
         ]
@@ -38,10 +46,30 @@
     },
     {
       "name": "Introduce",
-      "source_files": "CommonSettingSwift/Classes/Introduce/*",
-      "resources": "CommonSettingSwift/Classes/Introduce/.{xib,png}",
+      "source_files": "CommonSettingSwift/Classes/Introduce/*.swift",
       "dependencies": {
+        "CommonSettingSwift/Resources": [
+
+        ],
         "CommonSettingSwift/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Main",
+      "source_files": "CommonSettingSwift/Classes/Main/*.swift",
+      "dependencies": {
+        "CommonSettingSwift/Resources": [
+
+        ],
+        "CommonSettingSwift/Core": [
+
+        ],
+        "CommonSettingSwift/About": [
+
+        ],
+        "CommonSettingSwift/Introduce": [
 
         ]
       }

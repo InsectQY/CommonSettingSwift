@@ -26,9 +26,11 @@ public class CommonSettingViewController: BaseSettingViewController {
         tableView.separatorStyle = .none
         tableView.dataSource = self
         tableView.delegate = self
-        tableView.register(UINib(nibName: "SettingCell",
-                                 bundle: Bundle(for: Self.self)),
-                           forCellReuseIdentifier: reuseIdentifier)
+        if let bundle = Utils.getBundle() {
+            tableView.register(UINib(nibName: "SettingCell",
+                                     bundle: bundle),
+                               forCellReuseIdentifier: reuseIdentifier)
+        }
         tableView.rowHeight = SettingCell.height
         return tableView
     }()
