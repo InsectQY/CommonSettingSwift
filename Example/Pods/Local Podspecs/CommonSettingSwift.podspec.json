@@ -1,9 +1,9 @@
 {
   "name": "CommonSettingSwift",
   "version": "0.1.0",
-  "summary": "A short description of CommonSettingSwift.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/insect/CommonSettingSwift",
+  "summary": "通用的设置页面封装",
+  "description": "支持配置文件和代码两种方式配置，拥有多种常见设置功能",
+  "homepage": "https://github.com/InsectQY/CommonSettingSwift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,40 @@
     "insect": "704861917@qq.com"
   },
   "source": {
-    "git": "https://github.com/insect/CommonSettingSwift.git",
+    "git": "https://github.com/InsectQY/CommonSettingSwift",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "CommonSettingSwift/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "CommonSettingSwift/Classes/**/*",
+  "resources": "CommonSettingSwift/Classes/**/.{xib,png}",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "CommonSettingSwift/Classes/Core/*"
+    },
+    {
+      "name": "About",
+      "source_files": "CommonSettingSwift/Classes/About/*",
+      "resources": "CommonSettingSwift/Classes/About/.{xib,png}",
+      "dependencies": {
+        "CommonSettingSwift/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Introduce",
+      "source_files": "CommonSettingSwift/Classes/Introduce/*",
+      "resources": "CommonSettingSwift/Classes/Introduce/.{xib,png}",
+      "dependencies": {
+        "CommonSettingSwift/Core": [
+
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.0"
 }

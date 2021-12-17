@@ -1,5 +1,13 @@
 PODS:
-  - CommonSettingSwift (0.1.0)
+  - CommonSettingSwift (0.1.0):
+    - CommonSettingSwift/About (= 0.1.0)
+    - CommonSettingSwift/Core (= 0.1.0)
+    - CommonSettingSwift/Introduce (= 0.1.0)
+  - CommonSettingSwift/About (0.1.0):
+    - CommonSettingSwift/Core
+  - CommonSettingSwift/Core (0.1.0)
+  - CommonSettingSwift/Introduce (0.1.0):
+    - CommonSettingSwift/Core
 
 DEPENDENCIES:
   - CommonSettingSwift (from `../`)
@@ -9,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CommonSettingSwift: 447024615b4845d6f0a73806d93367f2e5997d81
+  CommonSettingSwift: 42d44884823ec38d991f2a8b45693e63dff33f16
 
 PODFILE CHECKSUM: 39dac06b5f4f3729b2288b2836472c65204d8375
 

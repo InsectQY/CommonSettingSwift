@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.source_files = 'CommonSettingSwift/Classes/**/*'
+  s.resources = 'CommonSettingSwift/Classes/**/.{xib,png}'
   
   s.subspec 'Core' do |ss|
       ss.source_files = 'CommonSettingSwift/Classes/Core/*'
@@ -31,11 +32,13 @@ Pod::Spec.new do |s|
   
   s.subspec 'About' do |ss|
       ss.source_files = 'CommonSettingSwift/Classes/About/*'
+      ss.resources = 'CommonSettingSwift/Classes/About/.{xib,png}'
       ss.dependency 'CommonSettingSwift/Core'
     end
   
   s.subspec 'Introduce' do |ss|
       ss.source_files = 'CommonSettingSwift/Classes/Introduce/*'
+      ss.resources = 'CommonSettingSwift/Classes/Introduce/.{xib,png}'
       ss.dependency 'CommonSettingSwift/Core'
     end
   
